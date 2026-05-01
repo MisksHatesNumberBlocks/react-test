@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel">
+    function App() {
+      return (
+        <div>
+          <h1>React</h1>
+          <p>React.js is a open source js framework used to make websites and stuff. It was made by Meta...</p>
+        </div>
+       );
+     }
+    // Render the thing (??)
+    ReactDOM.render(
+      <App />,
+      document.getElementById('root')
+    )
+    </script>
+  </body>
+</html>
